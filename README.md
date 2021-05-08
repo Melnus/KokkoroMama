@@ -2,6 +2,7 @@
   - [How to launch bot](#how-to-launch-bot)
   - [Running bot 24h on glitch.com](#running-bot-24h-on-glitchcom)
 - [はじめに](#はじめに)
+- [招待](#招待)
   
 # Discord sample bot working on glitch.com  
   
@@ -25,3 +26,6 @@ samplebotをお借りして改造したものです
 プリンセスコネクトRediveとは一切関係なく個人のためのbotです  
   
 - main.jsを編集
+
+# 招待
+[ここからどうぞ](https://discord.com/oauth2/authorize?client_id=840428547600678912&permissions=8&scope=bot)
