@@ -21,22 +21,40 @@ client.on('message', message =>
   //help集
   if(message.content ==='*help')
   {
-   message.reply('\n主さま、何か御用でしょうか？\n */koryaku - Wikiを張り出します。*\n');
+   message.reply('\n主さま、何か御用でしょうか？\n\nコマンド\n\n*koryaku - Wikiを張り出します。\n*koushiki - 公式Youtubeチャンネルを張り出します。\n*bots - 私の招待を張り出します。 \n\n おはよう. こんにちは. こんばんは. ログイン. ログインボーナス - スタンプを押します。 \n ママ - はい、ママですよ\n\n何かあれば、わたくしを お呼びください 全身全霊で主さまの要求に お応えいたします');
   }
   
-  if(message.content ==='/ping')
+  if(message.content ==='*ping')
   {
    message.reply('pong');
   }
   
-  if(message.content ==='/koryaku')
+
+  if(message.content ==='*bots')
+  {
+   message.reply('\n\n開発のご連絡はこちらの主さまにご連絡してください。\n\nhttps://github.com/Melnus/KokkoroMama\n\n招待はこちらでございます\n\nhttps://discord.com/oauth2/authorize?client_id=840428547600678912&permissions=8&scope=bot');
+  }
+  
+  
+  if(message.content ==='*koryaku')
   {
     message.reply('https://rwiki.jp/priconne_redive/')
   }
   
-    if(message.content ==='ママ'||message.content ==='ママ～'||message.content ==='まま'||message.content ==='まま～'||message.content ==='コッコロ'||message.content ==='コッコロママ'||message.content ==='コッコロママ～')
+  if(message.content ==='*koushiki')
+  {
+    message.reply('https://www.youtube.com/channel/UCiPSajGFI4ja74nYPU1MexA/videos')
+  }
+  
+  if(message.content ==='ママ'||message.content ==='ママ～'||message.content ==='まま'||message.content ==='まま～'||message.content ==='コッコロ'||message.content ==='コッコロママ'||message.content ==='コッコロママ～')
   {
    message.reply('はい、ママですよ。');
+  }
+  
+  if(message.content ==='おはよう'||message.content ==='こんにちは'||message.content ==='こんばんは'||message.content ==='ログイン'||message.content ==='ログインボーナス')
+  {
+    const emoji = message.guild.emojis.cache.find(emoji => emoji.name === 'stamp');
+    message.react(emoji);
   }
   
   if(message.author.bot)
