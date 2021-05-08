@@ -21,7 +21,7 @@ client.on('message', message =>
   //help集
   if(message.content ==='*help')
   {
-   message.reply('\n主さま、何か御用でしょうか？\n\nコマンド\n\n*koryaku - Wikiを張り出します。\n*koushiki - 公式Youtubeチャンネルを張り出します。\n*bots - 私の招待を張り出します。 \n\n おはよう. こんにちは. こんばんは. ログイン. ログインボーナス - スタンプを押します。 \n ママ - はい、ママですよ\n\n何かあれば、わたくしを お呼びください 全身全霊で主さまの要求に お応えいたします');
+   message.reply('\n主さま、何か御用でしょうか？\n\nコマンド\n\n*koryaku - Wikiを張り出します。\n*koushiki - 公式Youtubeチャンネルを張り出します。\n*bots - 私の招待を張り出します。 \n\n おはよう. こんにちは. こんばんは. ログイン. ログインボーナス - スタンプを押します。(絵文字の設定はstampにしてくださいね。) \n ママ - はい、ママですよ\n\n何かあれば、わたくしを お呼びください 全身全霊で主さまの要求に お応えいたします');
   }
   
   if(message.content ==='*ping')
