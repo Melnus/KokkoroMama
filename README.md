@@ -31,6 +31,9 @@ samplebotをお借りして改造したものです
 # 機能
 呼びかけ、コマンドに対応しています。  
 よくあるメンバー管理機能などはありません。  
+*help　- ヘルプ
+/kouryaku - Wikiをはりつける
+メンション - 何か御用でしたでしょうか？
   
 # 招待
 [ここからどうぞ](https://discord.com/oauth2/authorize?client_id=840428547600678912&permissions=8&scope=bot)

@@ -44,7 +44,7 @@ client.on('message', message =>
   
 	if(message.mentions.has(client.user))
 	{
-		message.reply( '呼びましたか？' );
+		message.reply( '何か御用でしたでしょうか？' );
 		return;
 	}
 });
