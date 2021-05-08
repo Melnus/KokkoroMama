@@ -1,3 +1,6 @@
+<img src="https://github.com/Melnus/KokkoroMama/blob/master/img/9fe8c82253898301cddb47769f204a98.png" alt="CC" title="ME">  
+  
+  
 - [Discord sample bot working on glitch.com](#discord-sample-bot-working-on-glitchcom)
   - [How to launch bot](#how-to-launch-bot)
   - [Running bot 24h on glitch.com](#running-bot-24h-on-glitchcom)
