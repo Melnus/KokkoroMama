@@ -1,3 +1,8 @@
+- [Discord sample bot working on glitch.com](#discord-sample-bot-working-on-glitchcom)
+  - [How to launch bot](#how-to-launch-bot)
+  - [Running bot 24h on glitch.com](#running-bot-24h-on-glitchcom)
+- [はじめに](#はじめに)
+  
 # Discord sample bot working on glitch.com  
   
 ## How to launch bot
@@ -14,7 +19,9 @@ Applications on `glitch.com` may sleep when keep no access for 5 minutes.
 You must ping application URL every 5 minutes to run your bot continuously.  
 Using `uptimerobot.com` service is just good.  
   
+# はじめに
 samplebotをお借りして改造したものです  
+[URL](https://glitch.com/~pumped-chopper)  
 プリンセスコネクトRediveとは一切関係なく個人のためのbotです  
   
 - main.jsを編集
