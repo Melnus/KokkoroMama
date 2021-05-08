@@ -1,6 +1,6 @@
 <img src="https://github.com/Melnus/KokkoroMama/blob/master/img/9fe8c82253898301cddb47769f204a98.png" alt="CC" title="ME">  
   
-  
+
 - [Discord sample bot working on glitch.com](#discord-sample-bot-working-on-glitchcom)
   - [How to launch bot](#how-to-launch-bot)
   - [Running bot 24h on glitch.com](#running-bot-24h-on-glitchcom)
@@ -32,11 +32,20 @@ samplebotをお借りして改造したものです
 - main.jsを編集
   
 # 機能
+主さま、何か御用でしょうか？
 呼びかけ、コマンドに対応しています。  
 よくあるメンバー管理機能などはありません。  
-*help　- ヘルプ
-/kouryaku - Wikiをはりつける
-メンション - 何か御用でしたでしょうか？
+
+コマンド
+
+*koryaku - Wikiを張り出します。
+*koushiki - 公式Youtubeチャンネルを張り出します。
+*bots - 私の招待を張り出します。 
+
+ おはよう. こんにちは. こんばんは. ログイン. ログインボーナス - スタンプを押します。(絵文字の設定はstampにしてくださいね。) 
+ ママ - はい、ママですよ
+
+何かあれば、わたくしを お呼びください 全身全霊で主さまの要求に お応えいたします
   
 # 招待
 [ここからどうぞ](https://discord.com/oauth2/authorize?client_id=840428547600678912&permissions=8&scope=bot)
