@@ -19,7 +19,7 @@ client.on('ready', message =>
 client.on('message', message =>
 {
   //help集
-  if(message.content ==='*help')
+  if(message.content ==='*help'||message.content ==='たすけてコッコロママ'||message.content ==='助けてコッコロママ')
   {
    message.reply('\n主さま、何か御用でしょうか？\n\nコマンド\n\n*koryaku - Wikiを張り出します。\n*koushiki - 公式Youtubeチャンネルを張り出します。\n*bots - 私の招待を張り出します。 \n\n おはよう. こんにちは. こんばんは. ログイン. ログインボーナス - スタンプを押します。(絵文字の設定はstampにしてくださいね。) \n ママ - はい、ママですよ\n\n何かあれば、わたくしを お呼びください 全身全霊で主さまの要求に お応えいたします');
   }
@@ -46,12 +46,28 @@ client.on('message', message =>
     message.reply('https://www.youtube.com/channel/UCiPSajGFI4ja74nYPU1MexA/videos')
   }
   
-  if(message.content ==='ママ'||message.content ==='ママ～'||message.content ==='まま'||message.content ==='まま～'||message.content ==='コッコロ'||message.content ==='コッコロママ'||message.content ==='コッコロママ～')
+  if(message.content==='はじめましてコッコロママ'||message.content ==='初めましてコッコロママ')
   {
-   message.reply('はい、ママですよ。');
+    message.reply('\n主さまをお守りし、おはようからおやすみまで……\n\n揺籠から棺桶まで、誠心誠意お世話をするのがわたくしの役目でございます')
   }
   
-  if(message.content ==='おはよう'||message.content ==='こんにちは'||message.content ==='こんばんは'||message.content ==='ログイン'||message.content ==='ログインボーナス')
+  if(message.content ==='ママ'||message.content ==='ママ～'||message.content ==='まま'||message.content ==='まま～'||message.content ==='コッコロ'||message.content ==='コッコロママ'||message.content ==='コッコロママ～')
+  {
+   message.reply('\nはい、ママですよ。');
+  }
+  
+  if(message.content ==='おはよう'||message.content ==='hello'||message.content ==='hi'||message.content ==='good morning'||message.content ==='Good Morning')
+  {
+    message.reply('\nおはようございます、主さま。');
+  }
+  
+  if(message.content ==='おやすみなさい'||message.content ==='お休みなさい'||message.content ==='Good Night')
+  {
+    message.reply('\nおやすみなさいませ、主さま。');
+  }
+  
+  
+  if(message.content ==='おはよう'||message.content ==='こんにちは'||message.content ==='こんばんは'||message.content ==='ログイン'||message.content ==='ログインボーナス'||message.content ==='Hello'||message.content ==='hello'||message.content ==='Good Morning'||message.content ==='good morning')
   {
     const emoji = message.guild.emojis.cache.find(emoji => emoji.name === 'stamp');
     message.react(emoji);
@@ -62,7 +78,7 @@ client.on('message', message =>
   
 	if(message.mentions.has(client.user))
 	{
-		message.reply( '何か御用でしたでしょうか？' );
+		message.reply( '\n何か御用でしたでしょうか？' );
 		return;
 	}
 });
