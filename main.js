@@ -61,7 +61,7 @@ client.on('message', message =>
     message.reply('\nおはようございます、主さま。');
   }
   
-  if(message.content ==='おやすみなさい'||message.content ==='お休みなさい'||message.content ==='Good Night')
+  if(message.content ==='おやすみなさい'||message.content ==='お休みなさい'||message.content ==='Good Night'||message.content ==='good night')
   {
     message.reply('\nおやすみなさいませ、主さま。');
   }
