@@ -61,13 +61,13 @@ client.on('message', message =>
     message.reply('\nおはようございます、主さま。');
   }
   
-  if(message.content ==='おやすみなさい'||message.content ==='お休みなさい'||message.content ==='Good Night'||message.content ==='good night')
+  if(message.content ==='おやすみなさい'||message.content ==='お休みなさい'||message.content ==='おやすみ'||message.content ==='Good Night'||message.content ==='good night')
   {
     message.reply('\nおやすみなさいませ、主さま。');
   }
   
   
-  if(message.content ==='おはよう'||message.content ==='こんにちは'||message.content ==='こんばんは'||message.content ==='ログイン'||message.content ==='ログインボーナス'||message.content ==='Hello'||message.content ==='hello'||message.content ==='Good Morning'||message.content ==='good morning')
+  if(message.content ==='おはよう'||message.content ==='こんにちは'||message.content ==='こんばんは'||message.content ==='おやすみ'||message.content ==='ログイン'||message.content ==='ログインボーナス'||message.content ==='Hello'||message.content ==='hello'||message.content ==='Good Morning'||message.content ==='good morning')
   {
     const emoji = message.guild.emojis.cache.find(emoji => emoji.name === 'stamp');
     message.react(emoji);
